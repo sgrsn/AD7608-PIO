@@ -1,7 +1,18 @@
+/**
+ * AD7608 Continuous Reading Example
+ * 
+ * This example demonstrates how to continuously read data from
+ * the AD7608 ADC at a high sampling rate.
+ * 
+ * Hardware Connections:
+ * - CS_PIN: Chip Select pin connected to the AD7608
+ * - BUSY_PIN: BUSY pin from the AD7608
+ * - CONVST_PIN: CONVST pin connected to the AD7608
+ */
+
 #include <Arduino.h>
 #include <SPI.h>
-#include <sstream>
-#include "ad7608.hpp"
+#include <ad7608.hpp>
 
 const uint8_t CS_PIN = 41;
 const uint8_t BUSY_PIN = 40;

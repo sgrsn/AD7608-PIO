@@ -1,0 +1,18 @@
+# Syntax Coloring Map For AD7608 Library
+
+# Datatypes (KEYWORD1)
+AD7608	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+end	KEYWORD2
+isReady	KEYWORD2
+startConversion	KEYWORD2
+readData	KEYWORD2
+processData	KEYWORD2
+printData	KEYWORD2
+getVoltage	KEYWORD2
+getAllVoltages	KEYWORD2
+getRawData	KEYWORD2
+
+# Constants (LITERAL1)

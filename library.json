@@ -1,0 +1,23 @@
+{
+  "name": "AD7608",
+  "version": "1.0.0",
+  "description": "Arduino library for interfacing with the AD7608 8-Channel Simultaneous Sampling ADC",
+  "keywords": "adc, analog, conversion, ad7608, analog devices",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgrsn/AD7608-PIO.git"
+  },
+  "authors": [
+    {
+      "name": "sgrsn",
+      "url": "https://github.com/sgrsn"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": ["teensy", "espressif32", "atmelavr", "atmelsam"],
+  "headers": "ad7608.hpp",
+  "dependencies": {
+    "SPI": "*"
+  }
+}
